@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE favoritos [
-  <!ELEMENT favoritos (marcador)> 
+<!DOCTYPE marcadores [
   <!ELEMENT marcador (nombre, uri)>
   <!ELEMENT nombre (#PCDATA)>
   <!ELEMENT uri (#PCDATA)>
