@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cosasPorHacer [
-<!ELEMENT cosasPorHacer (cosa)>
-<!ELEMENT cosa EMPTY>
+<!ELEMENT cosasPorHacer (cosa)*>
+<!ELEMENT cosa (#PCDATA)>
 <!ATTLIST cosa fecha CDATA #REQUIRED>
-<!ATTLIST cosa asunto CDATA #REQUIRED>
 <!ATTLIST cosa fechaLimite CDATA #REQUIRED>
+<!ATTLIST cosa asunto CDATA #IMPLIED>
 ]>
 <cosasPorHacer>
   <cosa fecha="20 de febrero de 2012" fechaLimite="1 de marzo de 2012">
